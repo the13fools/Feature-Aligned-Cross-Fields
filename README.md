@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+# A Jekyll Image Gallery
 
-You can use the [editor on GitHub](https://github.com/the13fools/Feature-Aligned-Cross-Fields/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This website illustrates how to integrate a lightGallery/Isotope photo gallery into a Jekyll website. Two example galleries are included. This solution is GitHub Pages friendly and does not require a custom plugin.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Installing
 
-### Markdown
+1. Clone the git repo: `git clone https://github.com/opieters/jekyll-image-gallery-example.git`
+2. Change folder: `cd jekyll-image-gallery-example`
+3. Install Jekyll: `gem install jekyll`
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Run the Website and Make It Your Own
 
-```markdown
-Syntax highlighted code block
+Run the website with `jekyll s`. Or just view the [GitHub Pages version](https://opieters.github.io/jekyll-image-gallery-example/). To [view the gallery](https://opieters.github.io/jekyll-image-gallery-example/photography/) click on the photography menu item.
 
-# Header 1
-## Header 2
-### Header 3
+[This blogpost](http://www.olivierpieters.be/blog/2016/02/26/creating-a-jekyll-image-gallery.html) explains different parts of the gallery and design choices. Use this guide and the files in this repo to make your own photo gallery.
 
-- Bulleted
-- List
+## License
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/the13fools/Feature-Aligned-Cross-Fields/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+The code is licensed under MIT license (see LICENSE-CODE.md). The images in the `assets/photography` folder are licensed under CC-BY-NC-SA license (see LICENSE-IMAGES.md).
